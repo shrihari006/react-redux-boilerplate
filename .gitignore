@@ -1,0 +1,48 @@
+###Windows###
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN\
+
+
+###Linux###
+
+!.tfignore
+*~
+\#*
+.#*
+*.swp
+
+# KDE
+.directory
+
+
+###OSX###
+
+.DS_Store
+
+### Editors 
+.vscode/
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+dist/
+
+# Linting logs
+dumbledore-lint.json
+
